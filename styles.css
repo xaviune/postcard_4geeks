@@ -8,10 +8,6 @@ body {
 	height: 300px;
 	margin: auto;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
 .postcard-header {
 	display: flex;
 }
@@ -36,8 +32,8 @@ body {
 }
 
 input {
-	border: none;
 	border-bottom: grey;
+	border: none;
 }
 .postcard-footer {
 	text-align: center;
