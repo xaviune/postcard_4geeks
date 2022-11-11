@@ -15,11 +15,16 @@ body {
 	width: 50px;
 	height: 50px;
 	align-content: right;
+    padding-right: 5px;
+    padding-top: 2px;
 }
 .postcard-header h1 {
-	width: 1000px;
+	width: 400px;
 	margin: 0px;
+    padding-left: 2px;
+    padding-top: 2px;
 }
+
 .postcard-body {
 	display: flex;
 }
@@ -28,17 +33,33 @@ body {
 }
 .body-left,
 .body-right {
-	padding: 1px;
+	padding: 5px;
+}
+p{
+    margin-left: 5px;
+    font-size: small;
 }
 
 input {
-	border-bottom: grey;
-	border: none;
+    border-bottom-color: grey;
+    border-bottom-width: thin;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .postcard-footer {
+    margin-top: 10px;
 	text-align: center;
 }
 button {
 	background-color: darkgray;
 	padding: 10px;
+    width: 200px;
+    height: 50px;
+}
+.body-right{
+    margin-top: 10px;
+}
+form{
+    padding-right: 5px;
 }
